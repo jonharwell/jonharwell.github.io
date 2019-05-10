@@ -1,3 +1,27 @@
-body{
+
+
+#ImageText{
     background-color: salmon;
+    font-family: 'Arimo', sans-serif;
 }
+
+#header{
+    text-align: center;
+    font-size: 30px;
+}
+#tagLine{
+    text-align: center;
+    font-size: 50px;
+}
+/* 
+#topMenu{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+} */
+
+#AboutMe{
+    font-family: 'Arimo', sans-serif;
+}
+
