@@ -1,6 +1,6 @@
 
 #navbar {
-    background-color: #333; /* Black background color */
+    background-color: #565656; /* Black background color */
     position: fixed; /* Make it stick/fixed */
     top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 100%; /* Full width */
@@ -34,10 +34,6 @@
     flex-direction: row;
 }
 
-img {
-    max-width: 100%;
-    flex-direction: row;
-}
 
 .ImageText{
     font-family: 'Questrial', sans-serif;
@@ -46,6 +42,8 @@ img {
 #header{
     text-align: center;
     font-size: 30px;
+    padding-top: 200px;
+    
 }
 
 #tagLine{
@@ -56,38 +54,52 @@ img {
 
 /* About Me  */
 
+#AboutMe{
+    background-color: #9099A2;
+    color: white;
+}
 .sectionTitle1{
     font-size: 30px;
+    margin: 10px;
+    padding: 30px;
+    padding-bottom: 10px;
     font-family: 'Questrial', sans-serif;
+    text-align: center;
 }
 
-#descriptor{
+#descriptor1{
     font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+    padding: 30px;
 }
 
 /* Skills */
 
 #Skills{
-    background-color: #b5e7a0;
+    background-color: #6D7993;
+    color: white;
 }
 
 #sectionTitle2{
     font-size: 30px;
+    margin: 0px;
+    padding: 30px;
+    margin-top: -10px;
+    font-family: 'Questrial', sans-serif;
     text-align: center;
+}
+
+.skills{
+    /* margin: 10px;
+    padding: 10px; */
+    text-align: center;
+    font-size: 30px;
+    /* margin-top: 50px; */
     font-family: 'Questrial', sans-serif;
 }
 
 .descriptor2{
+    text-align: center;
     font-family: 'Oxygen', sans-serif;
 }
 
-.skills{
-    /* border: 1px solid black; */
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-}
-
-.descriptor{
-    text-align: center;
-}

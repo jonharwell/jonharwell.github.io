@@ -27,25 +27,18 @@ var skillList = [
         var abilities = document.createElement('div');
         abilities.className = 'skills';
         abilities.innerHTML = skillList[i].skill;
-        
-    
-    
+        document.body.appendChild(abilities);
+       
+
+       
         var words = document.createElement('div');
-        words.className = 'descriptor';
+        words.className = 'descriptor2';
         words.innerHTML = skillList[i].description;
         document.body.appendChild(words);
     };
 
+// Experience
 
-$(document).ready(function(){
-    $('#sectionTitle2').after('document.body.appendChild(abilities);')
-    }
-    );
-
-
-// $(document).ready(function(){
-//     $('AboutMe').append('World!');
-// });
 
 
 
