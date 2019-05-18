@@ -58,6 +58,8 @@
     background-color: #9099A2;
     color: white;
 }
+
+
 .sectionTitle1{
     font-size: 30px;
     margin: 10px;
@@ -78,28 +80,41 @@
 #Skills{
     background-color: #6D7993;
     color: white;
-}
-
-#sectionTitle2{
-    font-size: 30px;
-    margin: 0px;
-    padding: 30px;
     margin-top: -10px;
-    font-family: 'Questrial', sans-serif;
-    text-align: center;
 }
 
-.skills{
-    /* margin: 10px;
-    padding: 10px; */
-    text-align: center;
+.sectionTitle2{
     font-size: 30px;
-    /* margin-top: 50px; */
+    margin: 10px;
+    padding: 30px;
+    padding-bottom: 10px;
     font-family: 'Questrial', sans-serif;
+    text-align: center;
 }
 
-.descriptor2{
+#skill{
+    font-size: 20px;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
+    padding: 5px;
+    margin: 10px;
 }
+
+#description{
+    /* text-align: center; */
+    font-family: 'Oxygen', sans-serif;
+    margin: 10px;
+}
+/* #skill{
+  
+} */
+
+/* .descriptor2{
+    background-color: #6D7993;
+    color: white;
+    
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    
+} */
 

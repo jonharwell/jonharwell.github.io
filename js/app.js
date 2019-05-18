@@ -12,6 +12,8 @@ function scrollFunction(){
 
 // Skills
 
+
+
 var skillList = [
     {skill:'Community Management', description: 'I have many years of experience in event planning for small and large groups and managing teams to scale projects to completion.'},
     {skill: 'Research and Planning', description: ' Through my experience in the legal sector as part of an in-house legal team and as part of a team of paralegals, I possess the skills to conduct thorough due diligence in any capacity.'}, 
@@ -23,19 +25,20 @@ var skillList = [
     {skill:'Basic Coding Knowledge of HTML, CSS, and JavaScript', description:'Able to design and create simple and functional websites.'}
     ];
 
-    for (var i = 0; i<skillList.length; i++){
-        var abilities = document.createElement('div');
-        abilities.className = 'skills';
-        abilities.innerHTML = skillList[i].skill;
-        document.body.appendChild(abilities);
-       
+    // for (var i = 0; i<skillList.length; i++){
+    //     var abilities = document.createElement('div');
+    //     abilities.className = 'skills';
+    //     abilities.innerHTML = skillList[i].skill;
+    //     document.body.appendChild(abilities);
 
        
-        var words = document.createElement('div');
-        words.className = 'descriptor2';
-        words.innerHTML = skillList[i].description;
-        document.body.appendChild(words);
-    };
+    //     var words = document.createElement('div');
+    //     words.className = 'descriptor2';
+    //     words.innerHTML = skillList[i].description;
+    //     document.body.appendChild(words);
+    // };
+
+
 
 // Experience
 
