@@ -41,14 +41,14 @@
 
 #header{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 200px;
     
 }
 
 #tagLine{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
 }
 
 
@@ -61,9 +61,9 @@
 
 
 .sectionTitle1{
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
-    padding: 30px;
+    padding: 50px;
     padding-bottom: 10px;
     font-family: 'Questrial', sans-serif;
     text-align: center;
@@ -73,6 +73,7 @@
     font-family: 'Oxygen', sans-serif;
     margin: 10px;
     padding: 30px;
+    text-align: center; 
 }
 
 /* Skills */
@@ -84,37 +85,87 @@
 }
 
 .sectionTitle2{
-    font-size: 30px;
+    font-size: 40px;
     margin: 10px;
-    padding: 30px;
-    padding-bottom: 10px;
+    padding: 50px;
     font-family: 'Questrial', sans-serif;
     text-align: center;
 }
 
 #skill{
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
-    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: 10px;
 }
 
 #description{
-    /* text-align: center; */
     font-family: 'Oxygen', sans-serif;
-    margin: 10px;
-}
-/* #skill{
-  
-} */
-
-/* .descriptor2{
-    background-color: #6D7993;
-    color: white;
-    
+    /* margin: 5px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
     text-align: center;
-    font-family: 'Oxygen', sans-serif;
-    
-} */
+}
 
+/* Experience */
+
+#Experience{
+    background-color: #96858F;
+    color: white;
+    margin-top: -21px;
+}
+.sectionTitle3{
+    font-size: 40px;
+    margin: 10px;
+    padding: 50px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.resumeIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#descriptor3{
+    font-family: 'Oxygen', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* Contact */
+
+#Contact{
+    background-color: #D5D5D5;
+    color: black;
+    margin-top: -21px;
+}
+
+.sectionTitle4{
+    font-size: 40px;
+    margin: 10px;
+    padding: 50px;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#descriptor4{
+    font-family: 'Oxygen', sans-serif;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
